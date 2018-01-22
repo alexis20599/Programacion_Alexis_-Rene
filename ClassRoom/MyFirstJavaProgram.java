@@ -1,6 +1,6 @@
 /********************************************
 Alexis René Olivares Cabrera
-MyFirstJavaProgram.java                     
+MyFirstJavaProgram.java
 This Program prints a "hello word" message
 *********************************************/
 public class MyFirstJavaProgram {
