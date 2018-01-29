@@ -2,7 +2,7 @@
 Alexis René Olivares Cabrera
 InputData.java
 
-This program display a personalized Hello gretting
+This program display a personalized Hello greting
 *******************************************/
 
 import java.util.Scanner;
