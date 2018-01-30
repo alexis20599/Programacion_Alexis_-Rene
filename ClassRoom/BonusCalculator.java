@@ -12,4 +12,4 @@ public static void main (String[]args){
   message="Bonus=$"+(salary*0.08);
   System.out.println (message);
 }//end main
-}//end onusCalcutator
+}//end BonusCalcutator
