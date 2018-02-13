@@ -20,17 +20,6 @@ public class DogDrive{
     fido.eat();
     fido.bark();
     fido.sleep();
-    //******************
-
-    Dog fufi= new Dog();
-    fufi.setColor("brown");
-    fufi.setEyeColor("purple");
-
-    JOptionPane.showMessageDialog(null, fufi.getColor());
-    JOptionPane.showMessageDialog(null, fufi.getEyeColor());
-
-    fufi.layDown();
-    fufi.bark();
-    fufi.sleep();
+    
   }
 }
