@@ -2,7 +2,7 @@
 Creditcards.java
 
 Alexis Rene Olivares Cabrera
-This a program calculates the total to be paid of a query.
+This a program calculates the increase in the credit limit of their customers' credit cards.
 *********************/
 import javax.swing.JOptionPane;
 public class Creditcards{

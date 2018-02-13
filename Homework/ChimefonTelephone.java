@@ -2,7 +2,7 @@
 ChimefonTelephone.java
 
 Alexis Rene Olivares Cabrera
-This a program calculates the total to be paid of a query.
+This a program prints and calculates how much should you pay for each concept of the call.
 *********************/
 import javax.swing.JOptionPane;
 
