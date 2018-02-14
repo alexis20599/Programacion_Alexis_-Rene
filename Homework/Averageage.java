@@ -8,11 +8,12 @@ import javax.swing.JOptionPane;
 
 public class Averageage{
   public static void main (String[]args){
-    int c=0, su=0, nu;
-    double pr,ed;
+    int su=0, nu, ed;
+    int c=1;
+    double pr;
 nu =Integer.parseInt(JOptionPane.showInputDialog("Enter a number the students"));
 
-while( c<=nu ){
+while( c <= nu ){
   ed =Integer.parseInt(JOptionPane.showInputDialog("Enter the age of student"));
   su += ed;
   c ++;
