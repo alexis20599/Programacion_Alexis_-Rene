@@ -3,7 +3,7 @@ Circle.java
 
 Alexis René Olivares Cabrera
 This class calculates the area of a Circle
-*****************************/
+****************************/
 import javax.swing.*;
 public class Circle{
   //properties
