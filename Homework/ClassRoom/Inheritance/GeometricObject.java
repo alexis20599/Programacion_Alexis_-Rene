@@ -12,16 +12,21 @@ public class GeometricObject{
   private Date dateCreated;//Fecha de creacion
 
 //Methods
+public GeometriObject(){
+  this.color= "white";
+  this.filled= false;
+  this.dateCreated= new Date();
+  }
 public GeometricObject(String color, boolean filled){
-    this.color="white";
-    this.filled= false;
+    this.color=color;
+    this.filled= filled;
     this.dateCreated = new Date();
   }
   public String getColor(){
     return this.color;
   }
   public void setColor(String color){
-    this.color = color;
+    color=new Color;
   }
   public boolean isFilled(){
     return this.filled;

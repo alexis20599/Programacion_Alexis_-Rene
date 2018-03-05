@@ -3,7 +3,7 @@ import javax.swing.*;
 public class Circle extends GeometricObject{
   private double radius;
 
-  public Circle(String[]args){}
+  public Circle(){}
 
   public Circle(double radius){
   this.radius = radius;
@@ -16,7 +16,7 @@ public Circle(double radius,String color, boolean filled){
 public double getRadius(){
   return this.radius;
 }
-public void setRadius(double radius){
+´public void setRadius(double radius){
   this.radius= radius;
 }
 public double getArea(){
@@ -28,10 +28,7 @@ public double getPerimeter(){
 public double getDiameter(){
   return this.radius *2;
 }
-@Override
-public String toString(){
-  return "date Created: "+ super.getDateCreated() +"\n color: "+ super.getColor()+ "\n area: "+ getArea();
+public void printCircle(){
+  JOptionPane.showMessageDialog(null, "The Circle created "+getDateCreated()+" has a color "+getColor());
 }
-/*public void printCircle(){
-  JOptionPane.showMessageDialog(null, "The Circle created "+getDateCreated()+" has a color "+ getColor());*/
 }
