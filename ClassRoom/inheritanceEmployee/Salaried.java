@@ -7,7 +7,7 @@ public class Salaried extends Employee{
   }
 
   public double getPay(){
-    return 0.0; //Hard code
-    
+    return this.salary; //Hard code
+
   }
 }
